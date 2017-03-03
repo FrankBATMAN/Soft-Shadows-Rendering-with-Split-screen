@@ -1,6 +1,5 @@
 # Soft-Shadows-Rendering-with-Split-screen-Load-Balancing
 
-* synopsis:soft shadows rendering with split-screen(splitting scene to parts) load balancing method & Soft Shadow Mapping
 * soft shadow algorithm: standard shadow mapping
 * load balancing methods: uniform-dispatcher, non-uniform-dispatcher.
 
