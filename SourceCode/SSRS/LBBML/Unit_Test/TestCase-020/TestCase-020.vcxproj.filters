@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source_020.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertTexture.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragTexture.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f6049cac-62c7-466a-b643-648f82611fe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

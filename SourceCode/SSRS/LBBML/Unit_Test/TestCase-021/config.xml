@@ -1,0 +1,75 @@
+<softShadowMapping>
+  
+  <window>1024,768</window>
+
+  <textureResolution>1024,768</textureResolution>
+  
+  <camera>
+    <isMoving>false</isMoving>
+    <positionSize>1000</positionSize>
+    <positionRange>
+      <minCorner>-40,0,-40</minCorner>
+      <maxCorner>60,60,60</maxCorner>
+    </positionRange>
+    <lookAt>0,0,0</lookAt>
+    <up>0,1,0</up>
+  </camera>
+
+  <frustum>
+    <fovy>45.0</fovy>
+    <aspect>1024,768</aspect>
+    <nearPlane>0.1</nearPlane>
+    <farPlane>200.0</farPlane>
+  </frustum>
+
+  <lightSource>
+    <isMoving>false</isMoving>
+    <sampleSize>100</sampleSize>
+    <areaLightPosition>-20,20,-20</areaLightPosition>
+    <scale>1,1,1</scale>
+    <rotAxis>1,0,0</rotAxis>
+    <rotAngle>0.1</rotAngle>
+    <movement>
+      <rangeX>-20,-51</rangeX>
+      <rangeY>20,25</rangeY>
+      <rangeZ>-20,25</rangeZ>
+      <stepsize>0.2,0.2,0.2</stepsize>
+    </movement> 
+  </lightSource>
+  
+  <scene>
+    <drawable>
+      <type>Quad</type>
+      <position>0,0,0</position>
+      <scale>20,1,20</scale>
+      <rotAxis>1,0,0</rotAxis>
+      <rotAngle>0</rotAngle>
+    </drawable>
+ <!--
+    <drawable>
+      <type>Model</type>
+      <ModelFilePath>../Models/dragon.obj</ModelFilePath>
+      <position>5,-2,-5</position>
+      <scale>0.2,0.2,0.2</scale>
+      <rotAxis>1,0,0</rotAxis>
+      <rotAngle>0</rotAngle>
+    </drawable>
+    <drawable>
+      <type>Model</type>
+      <ModelFilePath>../Models/bunny.obj</ModelFilePath>
+      <position>-6,2,-6</position>
+      <scale>0.3,0.3,0.3</scale>
+      <rotAxis>1,0,0</rotAxis>
+      <rotAngle>0.2</rotAngle>
+    </drawable>    
+-->    
+    <drawable>
+      <type>Cube</type>
+      <position>-6,3,6</position>
+      <scale>3,3,3</scale>
+      <rotAxis>1,0,0</rotAxis>
+      <rotAngle>0.1</rotAngle>
+    </drawable>
+  </scene>
+
+</softShadowMapping>

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LBBML", "LBBML\LBBML.vcxproj", "{692252F2-07C5-4B5C-8818-A5560E4CAED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LBBMLGraphicsApp", "LBBMLGraphicsApp", "{68AD46AC-2044-4930-8387-C0FA83395203}"
+	ProjectSection(SolutionItems) = preProject
+		LBBMLGraphicsApp\LBBML_GRAPHICS_APP_INTERFACE_EXPORTS.h = LBBMLGraphicsApp\LBBML_GRAPHICS_APP_INTERFACE_EXPORTS.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LBBMLGraphics", "LBBMLGraphics\LBBMLGraphics.vcxproj", "{B46FD7A7-5FD8-4D60-B66C-30A3EC3D605A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoftShadowMapping", "LBBMLGraphicsApp\SoftShadowMapping\SoftShadowMapping.vcxproj", "{33F8CD37-1975-4A30-9E39-BF3F9C20D051}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplitScreenRendering", "LBBMLGraphicsApp\SplitScreenRendering\SplitScreenRendering.vcxproj", "{C87A5C64-1E9B-4363-A089-4111714AB884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692252F2-07C5-4B5C-8818-A5560E4CAED5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{692252F2-07C5-4B5C-8818-A5560E4CAED5}.Debug|Win32.Build.0 = Debug|Win32
+		{692252F2-07C5-4B5C-8818-A5560E4CAED5}.Release|Win32.ActiveCfg = Release|Win32
+		{692252F2-07C5-4B5C-8818-A5560E4CAED5}.Release|Win32.Build.0 = Release|Win32
+		{B46FD7A7-5FD8-4D60-B66C-30A3EC3D605A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B46FD7A7-5FD8-4D60-B66C-30A3EC3D605A}.Debug|Win32.Build.0 = Debug|Win32
+		{B46FD7A7-5FD8-4D60-B66C-30A3EC3D605A}.Release|Win32.ActiveCfg = Release|Win32
+		{B46FD7A7-5FD8-4D60-B66C-30A3EC3D605A}.Release|Win32.Build.0 = Release|Win32
+		{33F8CD37-1975-4A30-9E39-BF3F9C20D051}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33F8CD37-1975-4A30-9E39-BF3F9C20D051}.Debug|Win32.Build.0 = Debug|Win32
+		{33F8CD37-1975-4A30-9E39-BF3F9C20D051}.Release|Win32.ActiveCfg = Release|Win32
+		{33F8CD37-1975-4A30-9E39-BF3F9C20D051}.Release|Win32.Build.0 = Release|Win32
+		{C87A5C64-1E9B-4363-A089-4111714AB884}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C87A5C64-1E9B-4363-A089-4111714AB884}.Debug|Win32.Build.0 = Debug|Win32
+		{C87A5C64-1E9B-4363-A089-4111714AB884}.Release|Win32.ActiveCfg = Release|Win32
+		{C87A5C64-1E9B-4363-A089-4111714AB884}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33F8CD37-1975-4A30-9E39-BF3F9C20D051} = {68AD46AC-2044-4930-8387-C0FA83395203}
+		{C87A5C64-1E9B-4363-A089-4111714AB884} = {68AD46AC-2044-4930-8387-C0FA83395203}
+	EndGlobalSection
+EndGlobal

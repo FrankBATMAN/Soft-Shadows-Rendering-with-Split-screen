@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8f2cdc04-bb1f-411f-a864-53b44381ca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{62d06ea1-ab64-4cb9-8741-cfa220a7208f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoftShadowMapping.cpp" />
+    <ClCompile Include="Render\RenderStudio.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SoftShadowMapping.h" />
+    <ClInclude Include="Render\RenderStudio.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\accumulateOcclusionMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\accumulateOcclusionMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\depthMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\depthMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\generateOcclusionMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\generateOcclusionMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\renderDepthMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\renderDepthMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\shadowMappingFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\shadowMappingVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

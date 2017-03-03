@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\depthMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\depthMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\renderDepthMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\renderDepthMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\shadowMappingFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\shadowMappingVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\accumulateOcclusionMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\accumulateOcclusionMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\generateOcclusionMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\generateOcclusionMapVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source_011.cpp" />
+  </ItemGroup>
+</Project>

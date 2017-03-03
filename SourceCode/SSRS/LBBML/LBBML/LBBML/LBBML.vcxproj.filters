@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{46e7b393-433d-4b59-a482-544933f85944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{f17ef400-94c6-435a-a9d8-856403b78d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem\Config">
+      <UniqueIdentifier>{4ae8ad7f-5dac-48f5-840f-1b599fa273cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatsCollector">
+      <UniqueIdentifier>{5aea25fe-5f14-4a1a-9794-a1ecc188e91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator">
+      <UniqueIdentifier>{0354d2be-c9c1-4d45-82e1-d1d66cfabcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathWorker">
+      <UniqueIdentifier>{b7429721-2362-46db-916c-a717ecfa92ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Functions">
+      <UniqueIdentifier>{9321d1f1-6c84-40d6-b162-e4425a43595e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Distances">
+      <UniqueIdentifier>{7fd66e42-a16b-4062-88e1-fd25ed77f2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatsCollector\Factor">
+      <UniqueIdentifier>{5d6a5fc5-e76f-4080-8f1b-5b830c3c38c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatsCollector\Common">
+      <UniqueIdentifier>{7015116d-325d-4a7d-836a-7e8c68b46865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathWorker\Common">
+      <UniqueIdentifier>{ada4e4eb-4df2-4c9a-9542-9a5fd56824f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Distances\DistanceBase">
+      <UniqueIdentifier>{4b67ce25-9811-4daf-8d0a-85313f250b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Distances\InheritDistances">
+      <UniqueIdentifier>{22ab6928-820d-402e-aed1-074982c4db5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem\Common">
+      <UniqueIdentifier>{2d008e80-a71f-4997-91b3-d54be46785b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Functions\FunctionBase">
+      <UniqueIdentifier>{eb77d898-c1ef-4f42-9590-037ee131a23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Functions\InheritFunctions">
+      <UniqueIdentifier>{3feb84f9-73b8-4c03-a342-cbec341ecc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSimulator\Common">
+      <UniqueIdentifier>{4caa4bd6-44a4-4655-b64b-3cf53a214928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StatsCollector\FactorDataTypeMap.cpp">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsCollector\Factors.cpp">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsCollector\LBBMLStatsCollector.cpp">
+      <Filter>StatsCollector\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsCollector\WriteData2File.cpp">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClCompile>
+    <ClCompile Include="MathWorker\LBBMLMathWorker.cpp">
+      <Filter>MathWorker\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\CosFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\LinearFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\LogFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\PowFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\SinFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\SigmoidFunction.cpp">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Functions\LBBMLFunctions.cpp">
+      <Filter>DataSimulator\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\LBBMLDataSimulator.cpp">
+      <Filter>DataSimulator\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\LBBMLInterface.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Distances\LBBMLDistances.cpp">
+      <Filter>DataSimulator\Distances</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Distances\EuclideanDistance.cpp">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Distances\MahalanobisDistance.cpp">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSimulator\Distances\ManhattanDistance.cpp">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StatsCollector\Factors.h">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCollector\DataTypeName.h">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCollector\FactorDataTypeMap.h">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCollector\LBBMLStatsCollector.h">
+      <Filter>StatsCollector\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsCollector\WriteData2File.h">
+      <Filter>StatsCollector\Factor</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Distances\ManhattanDistance.h">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Distances\EuclideanDistance.h">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Distances\MahalanobisDistance.h">
+      <Filter>DataSimulator\Distances\InheritDistances</Filter>
+    </ClInclude>
+    <ClInclude Include="MathWorker\LBBMLMathWorker.h">
+      <Filter>MathWorker\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Distances\DistanceBase.h">
+      <Filter>DataSimulator\Distances\DistanceBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\BaseFunction.h">
+      <Filter>DataSimulator\Functions\FunctionBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\CosFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\LinearFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\LogFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\PowFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\SinFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\SigmoidFunction.h">
+      <Filter>DataSimulator\Functions\InheritFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Functions\LBBMLFunctions.h">
+      <Filter>DataSimulator\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LBBML_INTERFACE_EXPORTS.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\LBBMLDataSimulator.h">
+      <Filter>DataSimulator\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LBBMLInterface.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSimulator\Distances\LBBMLDistances.h">
+      <Filter>DataSimulator\Distances</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

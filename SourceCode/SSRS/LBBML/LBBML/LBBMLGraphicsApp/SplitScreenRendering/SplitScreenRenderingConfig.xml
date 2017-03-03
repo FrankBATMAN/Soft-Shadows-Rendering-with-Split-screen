@@ -1,0 +1,43 @@
+<shaderBasedSplitRendering>
+  <window>1024,768</window>
+  <splitWindow>
+    <isDivideEqually>true</isDivideEqually>
+    <splitedRatio>4,3</splitedRatio>
+    <subWindows>
+      <subWindowNum>6</subWindowNum>
+      <subWindow0>0,0,300,300</subWindow0>
+      <subWindow1>300,0,800,500</subWindow1>
+      <subWindow2>800,0,1024,100</subWindow2>
+      <subWindow3>800,100,1025,500</subWindow3>
+      <subWindow4>0,300,300,768</subWindow4>
+      <subWindow5>300,500,1024,768</subWindow5>
+    </subWindows>
+  </splitWindow>
+  <camera>
+    <isMoving>false</isMoving>
+    <positionSize>1</positionSize>
+    <positionRange>
+      <minCorner>30,30,30</minCorner>
+      <maxCorner>31,31,31</maxCorner>
+    </positionRange>
+    <lookAt>0,0,0</lookAt>
+    <up>0,1,0</up>
+  </camera>
+
+  <frustum>
+    <fovy>45.0</fovy>
+    <aspect>1024,768</aspect>
+    <nearPlane>0.1</nearPlane>
+    <farPlane>100.0</farPlane>
+  </frustum>
+
+  <scene>
+    <drawable>
+      <ModelFilePath>../Models/dragon.obj</ModelFilePath>
+      <position>10, -20, 0</position>
+      <scale>0.9,0.9,0.9</scale>
+      <rotAxis>0,1,0</rotAxis>
+      <rotAngle>0.0</rotAngle>
+    </drawable>
+  </scene>
+</shaderBasedSplitRendering>

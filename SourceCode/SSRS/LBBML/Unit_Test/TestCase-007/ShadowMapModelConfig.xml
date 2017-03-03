@@ -1,0 +1,15 @@
+<NSFCConfig>
+  <NSFCViewer>
+    <Window_Position_X>100</Window_Position_X>
+    <Window_Position_Y>100</Window_Position_Y>
+    <Window_Width>1280</Window_Width>
+    <Window_Height>960</Window_Height>
+  </NSFCViewer>
+  <NSFCModel>
+    <Model_Type>ShadowMapModel</Model_Type>
+    <CASTMODEL_NAME>dragon.ive</CASTMODEL_NAME>
+    <RECEIVEMODEL_NAME>chocolate_plane.ive</RECEIVEMODEL_NAME>
+    <CASTMODEL_ANIMATIONRADIUS>30.0</CASTMODEL_ANIMATIONRADIUS>
+    <CASTMODEL_ANIMATIONTIME>6.0</CASTMODEL_ANIMATIONTIME>
+  </NSFCModel>
+</NSFCConfig>

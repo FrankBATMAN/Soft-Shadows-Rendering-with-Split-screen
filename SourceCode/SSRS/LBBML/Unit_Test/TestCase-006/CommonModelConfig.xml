@@ -1,0 +1,14 @@
+<NSFCConfig>NSFCConfig
+  <NSFCViewer>NSFCViewer
+    <Window_Position_X>100</Window_Position_X>
+    <Window_Position_Y>100</Window_Position_Y>
+    <Window_Width>1080</Window_Width>
+    <Window_Height>720</Window_Height>
+  </NSFCViewer>
+  <NSFCModel>NSFCModel
+    <Model_Type>CommonModel</Model_Type>
+    <Model_Name>bunny.ive</Model_Name>
+    <Model_Number>2</Model_Number>
+    <Model_Distance>0.5</Model_Distance>
+  </NSFCModel>
+</NSFCConfig>

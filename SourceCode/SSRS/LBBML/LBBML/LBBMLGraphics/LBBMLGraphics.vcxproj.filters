@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BoundingBox\OBB.cpp">
+      <Filter>BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\CubeDrawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsCommon\LBBMLGraphicsInterface.cpp">
+      <Filter>GraphicsCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\GLScreenshots.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\ShaderLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox\AABB.cpp">
+      <Filter>BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\PerspectiveFrustum.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Camera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox\FrustumBB.cpp">
+      <Filter>BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource\AreaLight.cpp">
+      <Filter>LightSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\QuadDrawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource\GenerateSamples.cpp">
+      <Filter>LightSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\ModelDrawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\TextureDrawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Window.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats\StatsSet.cpp">
+      <Filter>Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\TextureLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable\DrawableBase.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoundingBox\BoundingBoxBase.h">
+      <Filter>BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox\OBB.h">
+      <Filter>BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\CubeDrawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\DrawableBase.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCommon\LBBML_GRAPHICS_INTERFACE_EXPORTS.h">
+      <Filter>GraphicsCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCommon\LBBMLGraphicsInterface.h">
+      <Filter>GraphicsCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource\LightBase.h">
+      <Filter>LightSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\GLScreenshots.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\ShaderLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox\AABB.h">
+      <Filter>BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\PerspectiveFrustum.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Camera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox\FrustumBB.h">
+      <Filter>BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource\AreaLight.h">
+      <Filter>LightSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\QuadDrawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource\GenerateSamples.h">
+      <Filter>LightSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\ModelDrawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable\TextureDrawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Window.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats\StatsSet.h">
+      <Filter>Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\TextureLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsCommon\LBBMLGraphicsStructure.h">
+      <Filter>GraphicsCommon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BoundingBox">
+      <UniqueIdentifier>{46996377-ee50-4b83-a8e4-04893a08edc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawable">
+      <UniqueIdentifier>{fc297394-5857-4b69-a600-30ef0bfae28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsCommon">
+      <UniqueIdentifier>{7df22e57-b795-4ef2-a43e-3a75ceafdd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightSource">
+      <UniqueIdentifier>{37900591-a7b7-4796-89cc-3a9c1cbc5a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{e35671fd-7e0c-4c4d-9cc4-ee6652f0e31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{3de16e7e-f688-4a5c-9650-8067dd69d5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stats">
+      <UniqueIdentifier>{f4a1bdcb-f8fe-4fb6-ad14-f0a3dfe0f404}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

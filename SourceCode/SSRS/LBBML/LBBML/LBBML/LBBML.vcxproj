@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{692252F2-07C5-4B5C-8818-A5560E4CAED5}</ProjectGuid>
+    <RootNamespace>LBBML</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EIGEN);$(BOOST);../../../../SDK;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LBBML_DLL_EXPORTS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(BOOST);../../../../SDK;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LBBML_DLL_EXPORTS;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\LBBMLInterface.cpp" />
+    <ClCompile Include="DataSimulator\Distances\EuclideanDistance.cpp" />
+    <ClCompile Include="DataSimulator\Distances\LBBMLDistances.cpp" />
+    <ClCompile Include="DataSimulator\Distances\MahalanobisDistance.cpp" />
+    <ClCompile Include="DataSimulator\Distances\ManhattanDistance.cpp" />
+    <ClCompile Include="DataSimulator\Functions\CosFunction.cpp" />
+    <ClCompile Include="DataSimulator\Functions\SigmoidFunction.cpp" />
+    <ClCompile Include="DataSimulator\Functions\LinearFunction.cpp" />
+    <ClCompile Include="DataSimulator\Functions\LogFunction.cpp" />
+    <ClCompile Include="DataSimulator\Functions\LBBMLFunctions.cpp" />
+    <ClCompile Include="DataSimulator\Functions\PowFunction.cpp" />
+    <ClCompile Include="DataSimulator\Functions\SinFunction.cpp" />
+    <ClCompile Include="DataSimulator\LBBMLDataSimulator.cpp" />
+    <ClCompile Include="MathWorker\LBBMLMathWorker.cpp" />
+    <ClCompile Include="StatsCollector\FactorDataTypeMap.cpp" />
+    <ClCompile Include="StatsCollector\Factors.cpp" />
+    <ClCompile Include="StatsCollector\LBBMLStatsCollector.cpp" />
+    <ClCompile Include="StatsCollector\WriteData2File.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\LBBMLInterface.h" />
+    <ClInclude Include="Common\LBBML_INTERFACE_EXPORTS.h" />
+    <ClInclude Include="DataSimulator\Distances\EuclideanDistance.h" />
+    <ClInclude Include="DataSimulator\Distances\MahalanobisDistance.h" />
+    <ClInclude Include="DataSimulator\Distances\ManhattanDistance.h" />
+    <ClInclude Include="DataSimulator\Distances\LBBMLDistances.h" />
+    <ClInclude Include="DataSimulator\Distances\DistanceBase.h" />
+    <ClInclude Include="DataSimulator\Functions\BaseFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\CosFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\SigmoidFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\LinearFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\LogFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\LBBMLFunctions.h" />
+    <ClInclude Include="DataSimulator\Functions\PowFunction.h" />
+    <ClInclude Include="DataSimulator\Functions\SinFunction.h" />
+    <ClInclude Include="DataSimulator\LBBMLDataSimulator.h" />
+    <ClInclude Include="MathWorker\LBBMLMathWorker.h" />
+    <ClInclude Include="StatsCollector\DataTypeName.h" />
+    <ClInclude Include="StatsCollector\FactorDataTypeMap.h" />
+    <ClInclude Include="StatsCollector\Factors.h" />
+    <ClInclude Include="StatsCollector\LBBMLStatsCollector.h" />
+    <ClInclude Include="StatsCollector\WriteData2File.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
