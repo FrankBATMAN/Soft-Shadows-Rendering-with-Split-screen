@@ -1,10 +1,9 @@
 # Soft-Shadows-Rendering-with-Split-screen-Load-Balancing
 
-* soft shadow algorithm: standard shadow mapping
-* load balancing methods: uniform-dispatcher, non-uniform-dispatcher.
+* soft shadow algorithm: **standard shadow mapping**
+* load balancing methods: **uniform-dispatcher**, **non-uniform-dispatcher**.
 
 * skills: C++, OpenGL, GLSL
-* period: Apr. 2016 - Aug. 2016
 
 * demo: https://vimeo.com/206572228
 * sreenshots below
