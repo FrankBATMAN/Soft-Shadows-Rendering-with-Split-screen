@@ -1,7 +1,7 @@
-# Soft-Shadows-Rendering-with-Split-screen-Load-Balancing
+# Soft-Shadows-Rendering-with-Split-screen
 
 * soft shadow algorithm: **standard shadow mapping**
-* load balancing methods: **uniform-dispatcher**, **non-uniform-dispatcher**.
+* split-screen: **uniform-dispatcher**, **non-uniform-dispatcher**.
 
 * skills: C++, OpenGL, GLSL
 
